@@ -1,0 +1,12 @@
+# Suggested .gitignore file *
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+*.log
+sitemap.xml
+sitemap.xml.gz
+.htaccess
