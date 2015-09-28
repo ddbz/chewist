@@ -45,10 +45,13 @@ body {
 	border-bottom: 3px solid #ADFF2F;
 	line-height: 0.9em;
 	display: inline-block;
+	padding-top: 3px;
 }
 
 .updates a:hover {
 	background: greenyellow;
+	border-top: 3px solid #ADFF2F;
+	padding-top: 0;
 }
 
 span.date {
@@ -93,6 +96,10 @@ img.smallC {
 	font-style: italic;
 	color: gray;
 	margin: 1em;
+}
+
+.center {
+	text-align: center;
 }
 
 em {
