@@ -3,9 +3,57 @@ html {
 	min-height: 100%;
 }
 
+.fresh {
+    position: absolute;
+	font-weight: bold;
+    background-color: rgba(169,255,34,.75);
+    width: 140px;
+    padding: .1em;
+    text-align: center;
+    transform: rotate(-20deg);
+    top: 29px;
+    left: 5px;
+}
+
+span.hour {
+	color: gray;
+}
+
 .logo_s img{
 	margin: 1em auto 2em;
 	display: block;
+}
+
+div.nibble {
+    width: 100%;
+    border: thick solid black;
+    box-shadow: -10px 10px greenyellow;
+    outline: white dotted thick;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.nibble div.title {
+    display: block;
+    float: left;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.nibble h2 {
+    text-shadow: -3px 3px lightgray;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.nibble h3 {
+    font-size: 1em;
+    color: gray;
+}
+
+.nibble p {
+    clear: both;
+    padding: 0 1em;
 }
 
 .content, .logo {
@@ -55,13 +103,14 @@ body {
 }
 
 span.date {
-	display: inline-block;
-	float: right;
-	margin-right: 1em;
-	font-style: italic;
-	font-weight: bold;
-	color: gray;
-	background: greenyellow;
+    font-style: italic;
+    font-size: 1.5em;
+    color: gray;
+    background: greenyellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .2em;
 }
 
 img.feature {
@@ -86,6 +135,27 @@ img.smallC {
 }
 
 .portrait img {
+}
+
+blockquote {
+	margin-bottom: 1em;
+	text-align: center;
+	font-style: italic;
+	color: gray;
+	font-size: x-large;
+	border-left: 20px solid greenyellow;
+	border-right: 20px solid greenyellow;
+}
+
+div.wip {
+	width: 100px;
+	z-index: -100;
+	position: absolute;
+	right: 2%;
+	color: greenyellow;
+	border: 5px solid greenyellow;
+	border-radius: 3em;
+	padding: .6em;
 }
 
 .title {
@@ -196,4 +266,9 @@ footer {
 	bottom: 0;
 	height: 3em;
 	width: 100%;
+}
+
+sup {
+	vertical-align: super;
+	font-size: .75em;
 }
