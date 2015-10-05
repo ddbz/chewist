@@ -95,6 +95,22 @@ a {
 	display: block;
 }
 
+.ads p {
+    background-color: gray;
+    margin-bottom: 0;
+    padding: 1em;
+    font-style: italic;
+    font-size: 1.05em;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+span.ad_src {
+    text-transform: uppercase;
+    font-size: larger;
+    text-shadow: 1px 1px 1px greenyellow;
+}
+
 /*
 .updates a {
 	font-weight: bold;
