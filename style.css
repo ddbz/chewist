@@ -91,6 +91,12 @@ a {
 	color: #000;
 }
 
+.t2 {
+	font-weight: normal;
+	font-size: 1em;
+	text-align: center;
+}
+
 .update a {
 	display: block;
 }
@@ -159,6 +165,7 @@ img.smallC {
 	margin: 0 auto;
 	height: auto;
 	max-width: 80%;
+	text-align: justify;
 }
 
 .portrait img {
