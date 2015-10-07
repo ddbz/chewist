@@ -148,6 +148,16 @@ span.date {
     top: 0;
     right: 0;
     padding: .2em;
+    box-shadow: -5px 5px gray;
+}
+
+.recipe {
+	margin: 0 1em;
+}
+
+.recipe p {
+    font-style: italic;
+    font-weight: bold;
 }
 
 img.feature {
@@ -308,6 +318,7 @@ table {
 .tiny {
 	color: #C0C0C0;
 	font-size: .7em;
+	text-shadow: none;
 }
 
 .bottom span {
