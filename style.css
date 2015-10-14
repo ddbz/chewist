@@ -182,8 +182,13 @@ img.smallC {
 	text-align: justify;
 }
 
+img.fullW {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+
 .content p {
-	text-align: justify;
+	// text-align: justify;
 }
 
 .specty {
