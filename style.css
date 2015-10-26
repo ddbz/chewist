@@ -187,6 +187,12 @@ img.fullW {
 	margin-bottom: 1em;
 }
 
+.big {
+    font-size: 2.5em;
+    margin: 1em auto;
+    text-shadow: 3px -3px greenyellow;
+}
+
 .content p {
 	// text-align: justify;
 }
